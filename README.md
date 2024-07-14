@@ -1,10 +1,12 @@
 # Fraud-Detection-System
 
+
  * Problem Statement:
  The company aims to analyze and enhance its current fraud detection mechanisms using
  generative AI. The goal is to accurately identify and prevent fraudulent transactions in real-time,
  adapting quickly to emerging fraud patterns while minimizing false positives that could
  inconvenience legitimate users. Key areas of concern include:
+
    * Data Collection and Preprocessing: Evaluating the quality and diversity of transaction
  data used for training the fraud detection models. Identifying potential gaps or biases in
  the data that could affect the accuracy of fraud detection.
