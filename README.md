@@ -1,7 +1,7 @@
 # Fraud-Detection-System
 Fraud Detection System using Generative AI
 
-# Prerequisites:
+# Prerequisites
 
 Below packages must be installed before moving forward with the project:
 
