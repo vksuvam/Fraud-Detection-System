@@ -5,13 +5,13 @@
  generative AI. The goal is to accurately identify and prevent fraudulent transactions in real-time,
  adapting quickly to emerging fraud patterns while minimizing false positives that could
  inconvenience legitimate users. Key areas of concern include:
-  * Data Collection and Preprocessing: Evaluating the quality and diversity of transaction
+   * Data Collection and Preprocessing: Evaluating the quality and diversity of transaction
  data used for training the fraud detection models. Identifying potential gaps or biases in
  the data that could affect the accuracy of fraud detection.
-  * Anomaly Detection and Pattern Recognition: Enhancing the model’s ability to detect
+   * Anomaly Detection and Pattern Recognition: Enhancing the model’s ability to detect
  anomalies and recognize complex fraud patterns in real-time. Developing techniques to
  improve the sensitivity and specificity of fraud detection algorithms.
-  * User Privacy and Data Security: Ensuring that the use of generative AI adheres to
+   * User Privacy and Data Security: Ensuring that the use of generative AI adheres to
  strict user privacy and data security standards. Balancing the need for fraud detection
  with user privacy concerns.
 
