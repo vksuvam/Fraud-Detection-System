@@ -38,23 +38,25 @@ Use the below command in jupyter notebook to install all the dependencies mentio
   * Load the transaction data from a CSV file.
   * Encrypt personal identifiable information (PII) like transaction_id, user_id, transaction_time to ensure data privacy.
 
-
 * Differential Privacy:
-  * For numerical features (like transaction_amount), add some "fuzziness" to enhance privacy (differential privacy).
+  * For numerical features (like transaction_amount), some "fuzziness" is added to enhance privacy (differential privacy).
 
 * Data Preprocessing:
   * Encode categorical features into a format a machine can understand using one-hot encoding.
   * Standardize numerical features.
-  * Perform feature engineering to extract additional features like transaction hour and day.
+  * Perform feature engineering to extract additional features like transaction_hour and transaction_day.
 
 * Data Splitting:
-  * Split the data into training and testing sets.
+  *  Split the data into training and testing sets in the ratio of 80% and 20% respectively.
 
 * Anomaly Detection:
   * Use Isolation Forest to detect anomalies in the transaction data.
+  * Isolation forest algorithm is one of the newest anomaly detection technique. It is based on the fact that anomalies are data points that are few and different. As a result of these properties, anomalies are susceptible to mechanism called isolation. 
 
 * Pattern Recognition:
   * Train a neural network using Keras to recognize fraud patterns in the data.
+  * Dense and dropout layers within the Neural network are stacked sequentially & utilises Relu activation function.
+  * Model uses the Adam optimizer, binary cross-entropy loss function (suitable for binary classification), and tracks accuracy as a performance metric.
 
 * Model Evaluation:
   * Evaluate the model's performance on the test set and generate classification reports and confusion matrices.
