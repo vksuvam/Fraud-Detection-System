@@ -36,11 +36,11 @@ Use the below command in jupyter notebook to install all the dependencies mentio
 
 * Data Loading and Encryption:
   * Load the transaction data from a CSV file.
-  * To ensure data privacy, encrypt sensitive data.
+  * To ensure data privacy, encrypt sensitive data (like transaction_id, user_id, transaction_time)
 
-* Data Anonymization and Differential Privacy:
-  * Remove personally identifiable information (PII) by dropping the user_id column.
-  * For numerical features (like transaction amount), add some "fuzziness" to enhance privacy (differential privacy).
+
+* Differential Privacy:
+  * For numerical features (like transaction_amount), add some "fuzziness" to enhance privacy (differential privacy).
 
 * Data Preprocessing:
   * Encode categorical features into a format a machine can understand using one-hot encoding.
